@@ -18,9 +18,10 @@ public class Main {
 		t.info();
 		p.info();
 		Client client = new Client();
-		client.buy(c.getPrice(),c.getPoint());
-		client.buy(t.getPrice(),t.getPoint());
-		client.buy(p.getPrice(),p.getPoint());
+		client.buy(p);
+//		client.buy(c.getPrice(),c.getPoint());
+//		client.buy(t.getPrice(),t.getPoint());
+//		client.buy(p.getPrice(),p.getPoint());
 
 		
 	}
